@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/co.song.department-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/co.song.department-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/co.song.employee-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/co.song.employee-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/co.song.organization-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/co.song.organization-service.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/department-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/department-service.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/employee-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/employee-service.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/organization-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/organization-service.main.iml" />

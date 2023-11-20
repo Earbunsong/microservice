@@ -1,0 +1,32 @@
+# DataSource Configuration
+# spring.datasource.driver-class-name=org.postgresql.Driver
+# spring.datasource.url=jdbc:postgresql://localhost:5432/department_db
+# spring.datasource.username=postgres
+# spring.datasource.password=391738
+#
+# JPA Configuration
+# spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+# spring.jpa.hibernate.ddl-auto=update
+# spring.jpa.show-sql=true
+# spring.jpa.properties.hibernate.format_sql=true
+
+spring:
+  application:
+    name: DEPARTMENT-SERVICE
+  config:
+    import: optional:configserver:http://localhost:8888
+  management:
+    endpoints:
+      web:
+        exposure:
+          include: "*"
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0
